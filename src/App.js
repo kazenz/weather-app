@@ -2,6 +2,8 @@ import React from "react";
 import Titles from "./components/Titles";
 import Form from "./components/Form";
 import Weather from "./components/Weather";
+import Icon from "./components/Icon";
+import Footer from "./components/Footer";
 
 import "./App.css";
 
@@ -99,6 +101,11 @@ class App extends React.Component {
             description={this.state.description}
             error={this.state.error}
           />
+          <Icon
+            description={this.state.description}
+            className="descriptionSm"
+          />
+          <Footer />
         </div>
       </div>
     );

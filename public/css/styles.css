@@ -10,3 +10,14 @@
 .homescreen {
   height: 100% !important;
 }
+
+.iconSm {
+  height: 180px !important;
+}
+
+.descriptionSm {
+  margin-top: 30px;
+}
+.footerSm {
+  margin-top: 60px;
+}
