@@ -11,7 +11,9 @@ export class Form extends Component {
             name="country"
             placeholder="country (eg. de, us, fr)"
           />
-          <button className="formInput">Get Weather</button>
+          <button className="formInput waves-effect waves-light btn">
+            Get Weather
+          </button>
         </form>
       </div>
     );
